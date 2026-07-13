@@ -2,8 +2,6 @@
   "files": [],
   "compilerOptions": {
     "composite": true,
-    "disableSourceOfProjectReferenceRedirect": true,
-    "libReplacement": false
   },
   "references": [
     { "path": "./packages/main" },

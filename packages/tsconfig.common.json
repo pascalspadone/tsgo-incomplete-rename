@@ -1,18 +1,12 @@
 {
   "compilerOptions": { 
     "composite": true,
-    "isolatedModules": true,
-    "libReplacement": false,
-    "esModuleInterop": true,
+    "declarationMap": true,
     "module": "esnext",
     "moduleResolution": "bundler",
-    "target": "es2023",
-    "skipLibCheck": true,
-    "skipDefaultLibCheck": true,
     "paths": {
       "@repo/main/*": ["./main/src/*"],
       "@repo/utils/*": ["./utils/src/*"]
     }
   },
-  "files": []
 }
