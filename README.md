@@ -16,6 +16,8 @@ https://github.com/user-attachments/assets/e21ba78b-0b10-408e-aaaf-705582e67148
 
 #### TS6 - no warm-up, all imports are updated
 
+With TS6, it seems that we need to emit the `.d.ts` files for renames to work across subpackages (together with the `declarationMap` compiler option). Once that's done, imports are updated across subpackages without having to "warm up" the langage server.
+
 https://github.com/user-attachments/assets/4af10b79-5c03-4f09-9435-2b8d71c1c8dc
 
 
